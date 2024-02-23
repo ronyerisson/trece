@@ -56,6 +56,8 @@ services:
       context: ./frontend
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
+    deploy:
+      replicas: 3
     depends_on:
       - backend
     labels:
@@ -80,6 +82,8 @@ services:
       context: ./backend
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-CyzzELWXAKKB}' port='${DB_PORT:-5432}'"
+    deploy:
+      replicas: 2
     depends_on:
       - db
     labels:
