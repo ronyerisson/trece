@@ -3,7 +3,7 @@ version: '3.8'
 
 services:
   traefik:
-    image: traefik:v2.10
+    image: traefik:v2.11
 
     ports:
       - 80:80
@@ -17,9 +17,8 @@ services:
         order: start-first
       labels:
         - traefik.enable=true
-        - traefik.docker.network=nw-internal
         - traefik.constraint-label=public
-        #- traefik.http.services.traefik-public.loadbalancer.server.port=8000
+        - traefik.http.services.traefik-public.loadbalancer.server.port=8000
         ## Basic Authentication
         ### Note: all dollar signs in the hash need to be doubled for escaping.
         ### To create user:password pair, it's possible to use this command:
@@ -53,6 +52,7 @@ services:
       - --providers.docker.constraints=Label(`traefik.constraint-label`, `public`)
       - --providers.docker.exposedbydefault=false
       - --providers.docker.swarmmode
+      - --providers.docker.network=trece-ronyerisson-tangrama-com-br_nw-internal
       - --entrypoints.http.address=:80
       - --entrypoints.https.address=:443
       - --certificatesresolvers.le.acme.email=ronyerisson@tre-ce.jus.br

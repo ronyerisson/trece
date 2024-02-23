@@ -48,11 +48,13 @@
   "addons": [
     "@eeacms/volto-accordion-block",
     "@kitconcept/volto-slider-block",
-    "@eeacms/volto-matomo"
+    "@eeacms/volto-matomo",
+    "@kitconcept/volto-light-theme"
   ],
   "dependencies": {
     "@eeacms/volto-accordion-block": "*",
     "@eeacms/volto-matomo": "*",
+    "@kitconcept/volto-light-theme": "*",
     "@kitconcept/volto-slider-block": "*"
   }
 }
