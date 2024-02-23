@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "ronyerisson@tre-ce.jus.br",
+      "properties": {
+        "fullname": "Treinamento TRE-CE",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "trece"
+    }
+  ],
+    "team": [
+  ]
+}

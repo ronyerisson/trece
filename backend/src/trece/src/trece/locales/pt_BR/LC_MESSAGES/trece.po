@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-02-23 12:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: pt_BR\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: trece/profiles.zcml:22
+msgid "Initial content for our website."
+msgstr ""
+
+#: trece/profiles.zcml:13
+msgid "Policy package to install our site"
+msgstr ""
+
+#: trece/profiles.zcml:22
+msgid "Treinamento TRE-CE: Initial content"
+msgstr ""
+
+#: trece/profiles.zcml:13
+msgid "Treinamento TRE-CE: Install"
+msgstr ""
+
+#: trece/profiles.zcml:30
+msgid "Treinamento TRE-CE: Uninstall"
+msgstr ""
+
+#: trece/profiles.zcml:30
+msgid "Uninstall Treinamento TRE-CE setup."
+msgstr ""

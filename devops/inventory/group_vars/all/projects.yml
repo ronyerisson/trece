@@ -1,0 +1,7 @@
+---
+project_folders:
+  # Path to store trece-ronyerisson.tangrama.com.br postgres data
+  - path: "/srv/trece/data"
+    owner: 999
+    group: 999
+    mode: "0750"
